@@ -1,90 +1,59 @@
-# Copied from https://github.com/github/gitignore
+# CodeQL Database files
+openmrs-security-db/
+openmrs-security-results.sarif
 
-### IntelliJ Idea ###
-*.iml
-*.ipr
-*.iws
-.idea/
-
-### Maven ###
+# Maven build artifacts
 target/
-pom.xml.versionsBackup
-#############
-
-### Eclipse ###
-*.pydevproject
-.project
-.metadata
-bin/**
-tmp/**
-tmp/**/*
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.classpath
-.settings/
-.loadpath
-
-# External tool builders
-.externalToolBuilders/
-
-# Locally stored "Eclipse launch configurations"
-*.launch
-
-# CDT-specific
-.cproject
-
-# PDT-specific
-.buildpath
-###############
-
-### Java ###
-*.class
-
-# Java Package Files #
 *.jar
 *.war
 *.ear
-############
 
-### Netbeans ###
-nbproject/private/
-build/
-bin/
-nbbuild/
-dist/
-nbdist/
-nbactions.xml
-nb-configuration.xml
-################
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
 
-### Linux ###
-.*
-!.gitignore
-!.gitattributes
-!.tx
-!.github/
-*~
-#############
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-### OpenMRS Files ###
-/webapp/activemq-data
-/webapp/src/main/webapp/WEB-INF/tags/module
-/webapp/src/main/webapp/WEB-INF/dwr-modules.xml
-/webapp/src/main/webapp/WEB-INF/module_messages*
-/web/WEB-INF/dwr-modules.xml
-/openmrs-merged.properties
-#############
-
-### log files ###
-**/logs
+# Logs
 *.log
-#############
+logs/
 
-!.editorconfig
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
 
-### Liquibase snapshot files ###
-liquibase/snapshots/*.xml
-#############
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# Maven
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+
+# Local configuration
+application.properties
+application.yml
+*.env

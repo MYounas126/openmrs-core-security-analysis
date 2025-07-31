@@ -1,0 +1,31 @@
+name: "CodeQL Config"
+
+# Disable default queries and use custom query suites
+disable-default-queries: false
+
+# Use the security-and-quality query suite for comprehensive analysis
+queries:
+  - uses: security-and-quality
+
+# Paths to exclude from analysis (optional)
+paths-ignore:
+  - '**/test/**'
+  - '**/tests/**'
+  - '**/docs/**'
+  - '**/documentation/**'
+  - '**/*.md'
+  - '**/*.txt'
+
+# Paths to include in analysis (optional)
+paths:
+  - 'api/**'
+  - 'web/**'
+  - 'omod/**'
+  - 'pom.xml'
+
+# Query filters to exclude certain types of alerts (optional)
+# query-filters:
+#   - include:
+#       tags contain: security
+#   - exclude:
+#       tags contain: experimental 

@@ -14,7 +14,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.rmi.activation.Activator;
+// import java.rmi.activation.Activator; // Commented out - deprecated API removed in Java 9+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
