@@ -11,11 +11,11 @@
 
 ---
 
-## 📋 Project Overview
+## Project Overview
 
 This repository contains a comprehensive security vulnerability assessment of the OpenMRS Core healthcare information management system. The analysis was conducted using GitHub CodeQL to identify potential security weaknesses that could compromise patient data security and system integrity.
 
-### 🎯 Objectives
+### Objectives
 - Identify security vulnerabilities in OpenMRS Core 2.6.2
 - Provide detailed analysis and remediation recommendations
 - Establish automated security scanning with GitHub CodeQL
@@ -23,7 +23,7 @@ This repository contains a comprehensive security vulnerability assessment of th
 
 ---
 
-## 🔍 Analysis Results
+## Analysis Results
 
 ### Key Findings
 - **Total Files Analyzed:** 1,188 Java/Kotlin files
@@ -32,7 +32,7 @@ This repository contains a comprehensive security vulnerability assessment of th
 - **High Priority Issues:** Weak cryptography, SQL injection, insecure randomness
 - **Medium Priority Issues:** Log injection, trust boundary violations, sensitive logging
 
-### 🚨 Critical Vulnerabilities Found
+### Critical Vulnerabilities Found
 
 | Vulnerability Type | Severity | CVE References | Impact |
 |-------------------|----------|----------------|---------|
@@ -45,7 +45,7 @@ This repository contains a comprehensive security vulnerability assessment of th
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 openmrs-core-security-analysis/
@@ -65,7 +65,7 @@ openmrs-core-security-analysis/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - GitHub account
@@ -91,7 +91,7 @@ openmrs-core-security-analysis/
 
 ---
 
-## 🔧 Automated Security Scanning
+## Automated Security Scanning
 
 ### GitHub CodeQL Integration
 This repository is configured with automated GitHub CodeQL analysis that:
@@ -114,7 +114,7 @@ This repository is configured with automated GitHub CodeQL analysis that:
 
 ---
 
-## 📊 Security Metrics
+## Security Metrics
 
 ### Vulnerability Distribution
 ```
@@ -132,7 +132,7 @@ Low: 2 types (Information disclosure, URL validation)
 
 ---
 
-## 🛡️ Security Recommendations
+## Security Recommendations
 
 ### Immediate Actions Required
 1. **Fix Path Injection vulnerabilities** - Implement strict path validation
@@ -148,7 +148,7 @@ Low: 2 types (Information disclosure, URL validation)
 
 ---
 
-## 📋 Compliance and Standards
+## Compliance and Standards
 
 ### Healthcare Industry Compliance
 - **HIPAA (Health Insurance Portability and Accountability Act)**
@@ -162,7 +162,7 @@ Low: 2 types (Information disclosure, URL validation)
 
 ---
 
-## 🔍 Detailed Analysis
+## Detailed Analysis
 
 ### Comprehensive Security Report
 For detailed analysis, remediation steps, and technical recommendations, see:
@@ -174,7 +174,7 @@ For GitHub CodeQL setup and configuration details, see:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 ### Reporting Issues
 1. Use GitHub Issues to report security findings
@@ -194,7 +194,7 @@ For GitHub CodeQL setup and configuration details, see:
 
 ---
 
-## 📞 Support and Contact
+## Support and Contact
 
 ### Documentation
 - [CodeQL Documentation](https://docs.github.com/en/code-security/code-scanning)
@@ -208,13 +208,13 @@ For GitHub CodeQL setup and configuration details, see:
 
 ---
 
-## 📄 License
+## License
 
 This project is for educational and security assessment purposes. The OpenMRS Core code is subject to the original OpenMRS license. This security analysis is provided as-is for security research and improvement purposes.
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This security analysis is conducted for educational and improvement purposes. The findings should be used responsibly to enhance the security posture of healthcare systems. Always follow responsible disclosure practices when reporting security vulnerabilities.
 
